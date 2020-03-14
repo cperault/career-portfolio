@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #F5F1E3;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5em;
+    /*
+    Palette #1
+    #02010A Rich Black
+    #04052E Rich Blue
+    #140152 Middle Red Purple
+    #22007C Persian Indigo
+    #0D00A4 Duke Blue
+
+    Palete #1
+    #050505 Rich Black
+    #1B9AAA Light Sea Green
+    #DDDBCB Bone
+    #F5F1E3 Alabaster
+    #FFFFFF White
+    */
+}
+
+.portfolio-wrapper {
+    display: flex;
+    margin: 0px auto;
+    flex-direction: column;
+    width: 100%;
+}
+
+.portfolio-top-nav-div {
+    display: flex;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid #050505 3px;
+    margin: 0px auto;
+    align-items: center;
+    width: 100%;
+    color: white;
+    background-color: #1B9AAA;
+    justify-content: space-around;
+    overflow-y: hidden;
+    position: sticky;
+}
+
+.top-nav-link {
+    padding: 5px;
+}
+
+.top-nav-link:hover {
+    cursor: pointer;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-bottom: solid #050505 3px;
+    margin-bottom: -3px;
+}
+
+.landing-body-container {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 15px;
+    /* border-left: solid #050505 3px; */
+    border-bottom: solid #050505 3px;
+    width: 85%;
+    min-height: 230px;
+    max-width: 350px;
+    background-color: #FFFFFF;
+}
+
+.landing-body-container img {
+    border-radius: 15px;
+}
