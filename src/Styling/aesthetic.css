@@ -38,10 +38,10 @@ body {
     margin: 0px auto;
     align-items: center;
     width: 100%;
-    color: white;
+    color: #FFFFFF;
     background-color: #1B9AAA;
     justify-content: space-around;
-    overflow-y: hidden;
+    z-index: 1;
     position: sticky;
 }
 
@@ -57,15 +57,15 @@ body {
     margin-bottom: -3px;
 }
 
-.landing-body-container {
+.about-body-container, .contact-body-container {
     display: flex;
     padding: 10px;
+    text-align: center;
     flex-direction: column;
     justify-content: space-around;
     margin: 0 auto;
     margin-top: 30px;
     border-radius: 15px;
-    /* border-left: solid #050505 3px; */
     border-bottom: solid #050505 3px;
     width: 85%;
     min-height: 230px;
@@ -73,6 +73,34 @@ body {
     background-color: #FFFFFF;
 }
 
-.landing-body-container img {
+.contact-body-container h1 {
+    font-size: 1em;
+    text-align: center;
+}
+
+.about-body-container img {
     border-radius: 15px;
+}
+
+.landing-body-container {
+    background-color: #FFFFFF;
+    border-bottom: solid #050505 3px;
+    border-radius: 15px;
+}
+
+.landing-body-container, .experience-body-container {
+    display: flex;
+    padding: 10px;
+    text-align: left;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 85%;
+    min-height: 230px;
+    max-width: 1060px;
+}
+
+.experience-items-ul {
+    list-style-type: circle;
 }
