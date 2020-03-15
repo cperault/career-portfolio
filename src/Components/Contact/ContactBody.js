@@ -1,28 +1,61 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { TextField, Button } from "@material-ui/core";
 
 const ContactBody = () => {
+    //hook to manage state of the form data
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+
     const contactFormStyle = {
         marginBottom: "10px",
         borderRadius: "15px"
     };
 
+    //encode the Netlify Form request data
+    const encode = (data) => {
+        return Object.keys(data)
+            .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+            .join("&");
+    }
+    const handleSuccess = () => {
+        alert("Your message was sent! I'll reach out as soon as I can.");
+        window.location.reload();
+    }
+    const handleSubmit = e => {
+        const formData = { name, email, message };
+        fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: encode({ "form-name": "contact", ...formData })
+        })
+            .then(() => handleSuccess
+            )
+            .catch(error => alert(error));
+
+        e.preventDefault();
+    };
     return (
+
         <div className="contact-body-container">
             <h1>Want to Connect?</h1>
-            <form name="contact" netlify>
+            <form name="contact" netlify onSubmit={handleSubmit}>
                 <TextField
                     fullWidth
                     label="Name"
                     variant="outlined"
                     style={contactFormStyle}
-                    name="name" />
+                    name="name"
+                    onChange={text => setName(text.target.value)}
+                />
                 <TextField
                     fullWidth
                     label="Email"
                     variant="outlined"
                     style={contactFormStyle}
-                    name="email" />
+                    name="email"
+                    onChange={text => setEmail(text.target.value)}
+                />
                 <TextField
                     fullWidth
                     rows={5}
@@ -30,7 +63,22 @@ const ContactBody = () => {
                     variant="outlined"
                     style={contactFormStyle}
                     placeholder="This is where you express your interest :)"
-                    name="message" />
+                    name="message"
+                    onChange={text => setMessage(text.target.value)}
+                />
+                <input
+                    accept="image/*"
+                    style={{ display: 'none' }}
+                    id="raised-button-file"
+                    multiple
+                    type="file"
+                />
+                <label htmlFor="raised-button-file">
+                    <Button variant="outlined" component="span">
+                        Upload a file
+                    </Button>
+                </label>
+                <br />
                 <Button
                     type="submit"
                     variant="contained"
@@ -39,6 +87,7 @@ const ContactBody = () => {
                 >
                     Send
             </Button>
+
             </form>
         </div>
     )
