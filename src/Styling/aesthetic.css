@@ -82,6 +82,9 @@ body {
     border-radius: 15px;
 }
 
+.landing-body-container p {
+    text-align: center;
+}
 .landing-body-container {
     background-color: #FFFFFF;
     border-bottom: solid #050505 3px;

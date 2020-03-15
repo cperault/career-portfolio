@@ -19,16 +19,20 @@ const ContactBody = () => {
             .join("&");
     }
     const handleSubmit = e => {
-        const formData = { name, email, message };
-        fetch("/", {
-            method: "POST",
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: encode({ "form-name": "contact", ...formData })
-        })
-            .then(() => alert("Your message was sent! I'll reach out as soon as I can.")).then(() => window.location.reload())
-            .catch(error => alert(error));
-
         e.preventDefault();
+        const formData = { name, email, message };
+        if (name.trim() === "" || email.trim() === "" || message.trim() === "") {
+            alert("How do you expect to contact me with missing form data?");
+        }
+        else {
+            fetch("/", {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: encode({ "form-name": "contact", ...formData })
+            })
+                .then(() => alert("Your message was sent! Once reviewed, I'll reach out as soon as I can."))
+                .catch(error => alert(error));
+        }
     };
     return (
 
@@ -57,23 +61,10 @@ const ContactBody = () => {
                     multiline
                     variant="outlined"
                     style={contactFormStyle}
-                    placeholder="This is where you express your interest :)"
+                    placeholder="What would you like to say?"
                     name="message"
                     onChange={text => setMessage(text.target.value)}
                 />
-                <input
-                    accept="image/*"
-                    style={{ display: 'none' }}
-                    id="raised-button-file"
-                    multiple
-                    type="file"
-                />
-                <label htmlFor="raised-button-file">
-                    <Button variant="outlined" component="span">
-                        Upload a file
-                    </Button>
-                </label>
-                <br />
                 <Button
                     type="submit"
                     variant="contained"
