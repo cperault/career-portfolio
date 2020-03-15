@@ -18,10 +18,6 @@ const ContactBody = () => {
             .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
             .join("&");
     }
-    const handleSuccess = () => {
-        alert("Your message was sent! I'll reach out as soon as I can.");
-        window.location.reload();
-    }
     const handleSubmit = e => {
         const formData = { name, email, message };
         fetch("/", {
@@ -29,8 +25,7 @@ const ContactBody = () => {
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({ "form-name": "contact", ...formData })
         })
-            .then(() => handleSuccess
-            )
+            .then(() => alert("Your message was sent! I'll reach out as soon as I can.")).then(() => window.location.reload())
             .catch(error => alert(error));
 
         e.preventDefault();
