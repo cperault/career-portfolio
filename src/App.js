@@ -2,7 +2,8 @@ import React from 'react';
 import "./Styling/aesthetic.css";
 import TopNav from "./Components/Navigation/TopNav.js";
 import LandingBody from "./Components/Landing/LandingBody.js";
-import AboutBody from "./Components/About/AboutBody.js";
+import Projects from "./Components/Projects/Projects.js";
+//import AboutBody from "./Components/About/AboutBody.js";
 import ExperienceBody from "./Components/Experience/ExperienceBody.js";
 import ContactBody from "./Components/Contact/ContactBody.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -16,12 +17,15 @@ const App = () => {
           <Route exact path={["/", "/home", "/landing"]}>
             <LandingBody />
           </Route>
+          <Route path="/Projects">
+            <Projects />
+          </Route>
           <Route path="/Experience">
             <ExperienceBody />
           </Route>
-          <Route path="/About">
+          {/* <Route path="/About">
             <AboutBody />
-          </Route>
+          </Route> */}
           <Route path="/Contact">
             <ContactBody />
           </Route>

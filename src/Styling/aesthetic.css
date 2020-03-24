@@ -3,7 +3,7 @@ body {
     padding: 0px;
     background-color: #F5F1E3;
     font-family: 'Josefin Slab', serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     /*
     Palette #1
     #02010A Rich Black
@@ -57,14 +57,14 @@ body {
     margin-bottom: -3px;
 }
 
-.about-body-container, .contact-body-container {
+.contact-body-container {
     display: flex;
     padding: 10px;
     text-align: center;
     flex-direction: column;
     justify-content: space-around;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 20px;
     border-radius: 15px;
     border-bottom: solid #050505 3px;
     width: 85%;
@@ -78,27 +78,50 @@ body {
     text-align: center;
 }
 
-.about-body-container img {
+.landing-body-container img {
     border-radius: 15px;
+    min-width: 350px;
 }
 
 .landing-body-container p {
     text-align: center;
 }
-.landing-body-container {
+
+/* .landing-body-container, .project-container {
+    background-color: #FFFFFF;
+    border-bottom: solid #050505 3px;
+    border-radius: 15px;
+} */
+
+.project-container h1 {
+    text-align: center;
+}
+
+.project-container {
+    padding: 20px;
+}
+
+.landing-body-container, .projects-body-container, .experience-body-container {
     background-color: #FFFFFF;
     border-bottom: solid #050505 3px;
     border-radius: 15px;
 }
 
-.landing-body-container, .experience-body-container {
+.landing-body-div {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.landing-body-container, .projects-body-container, .experience-body-container {
     display: flex;
     padding: 10px;
     text-align: left;
     flex-direction: column;
     justify-content: space-around;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 20px;
     width: 85%;
     min-height: 230px;
     max-width: 1060px;
@@ -106,4 +129,23 @@ body {
 
 .experience-items-ul {
     list-style-type: circle;
+}
+
+.landing-body-bio {
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.landing-body-bio h1 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 915px) {
+    .landing-body-div {
+        flex-direction: column !important;
+        margin: 0 auto !important;
+    }
+    .landing-body-bio {
+        margin-top: 20px;
+    }
 }

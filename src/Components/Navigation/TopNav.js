@@ -2,7 +2,7 @@ import React from 'react';
 
 const TopNav = () => {
     //array to store the top nav links
-    const links = ["Home", "Experience", "About", "Contact"];
+    const links = ["Home", "Projects", "Experience", "Contact"];
     const handleLinkClick = (link) => {
         window.location.assign(link);
     }
