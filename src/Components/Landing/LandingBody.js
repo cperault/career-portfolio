@@ -4,7 +4,7 @@ const LandingBody = () => {
     return (
         <div className="landing-body-container">
             <div className="landing-body-div">
-                <img src={Self} height="500" width="350" alt="A face portrait of Christopher wearing burgundy plaid" />
+                <img src={Self} height="450" width="300" alt="A face portrait of Christopher wearing burgundy plaid" />
                 <div className="landing-body-bio">
                     <div>
                         <h1>Hi! I'm Christopher.</h1>
