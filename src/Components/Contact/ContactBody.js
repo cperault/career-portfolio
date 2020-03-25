@@ -30,7 +30,10 @@ const ContactBody = () => {
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
                 body: encode({ "form-name": "contact", ...formData })
             })
-                .then(() => alert("Your message was sent! Once reviewed, I'll reach out as soon as I can."))
+                .then(() => {
+                    alert("Your message was sent! Once reviewed, I'll reach out as soon as I can.");
+                    window.location.reload();
+                })
                 .catch(error => alert(error));
         }
     };
