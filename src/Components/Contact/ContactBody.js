@@ -64,7 +64,7 @@ const ContactBody = () => {
                     multiline
                     variant="outlined"
                     style={contactFormStyle}
-                    placeholder="What would you like to say?"
+                    label="What would you like to say?"
                     name="message"
                     onChange={text => setMessage(text.target.value)}
                 />

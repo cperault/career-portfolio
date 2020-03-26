@@ -3,7 +3,7 @@ body {
     padding: 0px;
     background-color: #F5F1E3;
     font-family: 'Josefin Slab', serif;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     /*
     Palette #1
     #02010A Rich Black
@@ -26,6 +26,7 @@ body {
     margin: 0px auto;
     flex-direction: column;
     width: 100%;
+    padding-bottom: 20px;
 }
 
 .portfolio-top-nav-div {
@@ -87,21 +88,17 @@ body {
     text-align: center;
 }
 
-/* .landing-body-container, .project-container {
-    background-color: #FFFFFF;
-    border-bottom: solid #050505 3px;
-    border-radius: 15px;
-} */
+.project-container {
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
 
-.project-container h1 {
+.project-container h1, h4 {
     text-align: center;
 }
 
-.project-container {
-    padding: 20px;
-}
-
-.landing-body-container, .projects-body-container, .experience-body-container {
+.landing-body-container, .projects-body-container {
     background-color: #FFFFFF;
     border-bottom: solid #050505 3px;
     border-radius: 15px;
@@ -114,6 +111,14 @@ body {
     justify-content: space-between;
 }
 
+.experience-body-container {
+    margin-top: 8px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    max-width: 600px !important;
+}
+
 .landing-body-container, .projects-body-container, .experience-body-container {
     display: flex;
     padding: 10px;
@@ -121,9 +126,12 @@ body {
     flex-direction: column;
     justify-content: space-around;
     margin: 0 auto;
-    margin-top: 20px;
     width: 85%;
     min-height: 230px;
+}
+
+.landing-body-container, .projects-body-container {
+    margin-top: 20px;
     max-width: 1060px;
 }
 
@@ -144,8 +152,11 @@ body {
     .landing-body-div {
         flex-direction: column !important;
         margin: 0 auto !important;
+        padding-bottom: 0px;
     }
     .landing-body-bio {
         margin-top: 20px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 }

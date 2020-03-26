@@ -7,11 +7,14 @@ const ExperienceBody = () => {
         <div className="experience-body-container">
             {experiences.map(experience => {
                 return (
-                    <Card variant="outlined" style={{ padding: "40px", marginBottom: "10px", fontSize: "18px", backgroundColor: "#FFFFFF", borderRadius: "15px" }}>
+                    <Card style={{ padding: "30px", paddingBottom: "5px", marginBottom: "10px", backgroundColor: "#FFFFFF", borderBottom: "solid #050505 3px", borderRadius: "15px" }}>
                         <span style={{ fontWeight: "bolder" }}>{experience.experienceTitle}</span>
                         <br />
-                        <span style={{ textDecoration: "underline" }}>{`${experience.experienceCompany} — ${experience.experienceLocation} — ${experience.experienceDuration}`}</span>
+                        <span>{experience.experienceCompany}</span>
                         <br />
+                        <span>{experience.experienceDuration}</span>
+                        <br />
+                        <span>{experience.experienceLocation}</span>
                         <ul className="experience-items-ul">
                             {experience.experienceDescription.map(description => {
                                 return (
@@ -22,7 +25,7 @@ const ExperienceBody = () => {
                     </Card>
                 )
             })}
-        </div>
+        </div >
     )
 }
 
