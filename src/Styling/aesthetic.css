@@ -154,7 +154,6 @@ body {
 }
 
 .landing-body-bio {
-    margin-left: 20px;
     padding: 20px;
 }
 
@@ -209,7 +208,7 @@ body {
         padding-bottom: 0px;
     }
     .landing-body-bio {
-        margin-top: 20px;
+        margin-top: 25px;
         padding-top: 0px;
         padding-bottom: 0px;
     }
