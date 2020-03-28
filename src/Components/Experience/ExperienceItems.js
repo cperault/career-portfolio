@@ -1,8 +1,8 @@
 const experiences = [
     {
-        experienceTitle: "Web Developer", experienceCompany: "MacPractice Inc.", experienceLocation: "Lincoln, NE", experienceDuration: "Oct 2019 to Present", experienceDescription: [
+        experienceTitle: "Web Developer", experienceCompany: "MacPractice Inc.", experienceLocation: "Lincoln, NE", experienceDuration: "Oct 2019 to Mar 2020", experienceDescription: [
             "Maintenance of existing PHP 5 Slim websites to include updated page content, user access control, and designs as requested by management.",
-            "Development and conversion for new websites using modern technologies: PHP 7, React.js, Docker, and API-implemented object-relational mapping."
+            "Development and conversion for new websites using modern technologies: PHP 7, React.js, Docker, and object-relational mapping."
         ]
     },
     {

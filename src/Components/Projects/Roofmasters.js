@@ -4,7 +4,7 @@ const Roofmasters = () => {
     return (
         <div className="project-container">
             <h1>Roofmasters NE</h1>
-            <h4>https://roofmastersne.com</h4>
+            <h4><a href="https://roofmastersne.com" target="_blank" rel="noopener noreferrer nofollow">https://roofmastersne.com</a></h4>
             <p>
                 For my graduation Capstone project, I created a live business website which includes a customer management portal. Built using React.js, PHP 7, MySQL, CSS, Material-UI and deployed with Netlify and Heroku, this fully functional website allows new and existing customers to access an account where they can request roofing, gutter, and siding projects.
             </p>
@@ -35,7 +35,7 @@ const Roofmasters = () => {
             <p>
                 I was inspired to build this website for my sister and brother-in-law who have been in the roofing, gutters, and siding business for over a decade as they are wanting to branch off into their own company. I used an Agile approach to plan the project. Something about which I am most proud is my determination to learn technologies not taught in school: React.js, hosting &amp; deployment, and APIs. I received special permission from my Capstone instructor as the requirements were to use technologies learned within the academic program curriculum. Because I had learned and enjoyed JavaScript at SCC, I wanted to teach myself a popular JavaScript library not only to challenge myself during my last semester, but to expand my skillset and of course, allow me to stand out. This thirst for learning allowed me to take on React.js-based work during my internship and now current position as web developer, so I&apos;d say that it was a risky but rewarding decision.
             </p>
-        </div>
+        </div >
     )
 }
 

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { TextField, Button } from "@material-ui/core";
+import LinkedInIcon from "../../Media/LinkedInIcon.svg";
 
 const ContactBody = () => {
     //hook to manage state of the form data
@@ -76,8 +77,16 @@ const ContactBody = () => {
                 >
                     Send
             </Button>
-
             </form>
+            <span class="contact-form-separator">or</span>
+            <footer class="social-media-footer">
+                <div>Find me on LinkedIn:</div>
+                <div>
+                    <a href="https://www.linkedin.com/in/christopher-perault-720519152" target="_blank" rel="noopener noreferrer nofollow">
+                        <img src={LinkedInIcon} class="social-media-icon" alt="LinkedIn profile icon" />
+                    </a>
+                </div>
+            </footer>
         </div>
     )
 }

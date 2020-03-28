@@ -98,6 +98,20 @@ body {
     text-align: center;
 }
 
+.projects-body-container h3 {
+    text-align: center;
+}
+
+.projects-body-container a, .project-container a {
+    text-decoration: none;
+    color: #1B9AAA;
+}
+
+.projects-body-container a:hover, .project-container a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .landing-body-container, .projects-body-container {
     background-color: #FFFFFF;
     border-bottom: solid #050505 3px;
@@ -144,8 +158,48 @@ body {
     padding: 20px;
 }
 
+.landing-body-bio li {
+    list-style-type: circle;
+    padding: 5px;
+}
+
 .landing-body-bio h1 {
     text-align: center;
+}
+
+.emphasis {
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.values {
+    color: #1B9AAA;
+    font-weight: bolder;
+}
+
+.social-media-icon {
+    height: 25px;
+    width: 25px;
+}
+
+.social-media-icon:hover {
+    cursor: pointer;
+}
+
+.social-media-footer {
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.social-media-footer img {
+    margin-left: 10px;
+}
+
+.contact-form-separator {
+    margin: 0 auto;
+    padding: 10px;
 }
 
 @media only screen and (max-width: 915px) {
