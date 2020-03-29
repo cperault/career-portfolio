@@ -157,7 +157,7 @@ body {
     padding: 20px;
 }
 
-.landing-body-bio li {
+.landing-body-bio li, .experience-body-container li {
     list-style-type: circle;
     padding: 5px;
 }
