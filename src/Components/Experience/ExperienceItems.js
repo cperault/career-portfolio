@@ -1,7 +1,9 @@
 const experiences = [
     {
         experienceTitle: "Web Developer", experienceCompany: "MacPractice Inc.", experienceLocation: "Lincoln, NE", experienceDuration: "Oct 2019 to Mar 2020", experienceDescription: [
-            "Maintenance of existing PHP 5 Slim websites to include updated page content, user access control, and designs as requested by management.",
+            "Created and solidified the architecture for local web development within the office; wrote thorough documentation for all web development processes involving PHP, React.js, Apache, Vapor, Git, GitLab, SSL setup, and SSH access to development servers; configured Apache to allow local and staging environment development and testing; maintained and updated the Ubuntu-based staging server files.",
+            "Kept track of dependencies and corresponding license information used for PHP, React.js, and Vapor development.",
+            "Maintenance of existing PHP 5 Slim websites to include updated page content, modify user privileges, and designs.",
             "Development and conversion for new websites using modern technologies: PHP 7, React.js, Docker, and object-relational mapping."
         ]
     },
