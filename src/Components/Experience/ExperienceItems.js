@@ -1,7 +1,7 @@
 const experiences = [
     {
         experienceTitle: "Web Developer", experienceCompany: "MacPractice Inc.", experienceLocation: "Lincoln, NE", experienceDuration: "Oct 2019 to Mar 2020", experienceDescription: [
-            "Implemented an internal web interface for our proprietary timeclock software so that employees can utilize timeclock functions and track time worked while working remotely during the COVID-19 pandemic.",
+            "Developed an internal web interface so that employees can utilize timeclock functions and track time while working remotely during the COVID-19 pandemic.",
             "Created and solidified the architecture for local web development within the office; wrote thorough documentation for all web development processes involving PHP, React.js, Apache, Vapor, Git, GitLab, SSL setup, and SSH access to development servers; configured Apache to allow local and staging environment development and testing; maintained and updated the Ubuntu-based staging server files.",
             "Kept track of dependencies and corresponding license information used for PHP, React.js, and Vapor development.",
             "Maintenance of existing PHP 5 Slim websites to fix bugs, add new page content, modify user privileges, as well as update existing UI designs.",
