@@ -14,9 +14,9 @@ const experiences = [
         ]
     },
     {
-        experienceTitle: "IT Operations Analyst", experienceCompany: "TEKsystems", experienceLocation: "Lincoln, NE", experienceDuration: "May 2018 to Dec 2018", experienceDescription: [
-            "Project work pertaining to new deployments of Lenovo desktops and laptops using Windows 7 & 10.",
-            "Pre/post-staging maintenance of user and computer objects in Active Directory; data migration."
+        experienceTitle: "IT Operations Analyst", experienceCompany: "TEKsystems - Ritchie Bros Auctioneers", experienceLocation: "Lincoln, NE", experienceDuration: "May 2018 to Dec 2018", experienceDescription: [
+            "Staged, migrated, inventoried, and deployed 300+ Lenovo laptop and desktop computers.",
+            "Managed user/computer objects and groups within Active Directory."
         ]
     },
     {
