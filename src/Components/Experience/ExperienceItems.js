@@ -25,31 +25,31 @@ const experiences = [
             "User administration via Active Directory, SCCM, Oracle, Command Prompt, and PowerShell."
         ]
     },
-    {
-        experienceTitle: "Account Executive Assistant & Dispatcher", experienceCompany: "HomeDeliveryLink", experienceLocation: "Lincoln, NE", experienceDuration: "Jan 2017 to Nov 2017", experienceDescription: [
-            "Coordinated routes and truck loads for the appliance and electronics store client, Schaefer's.",
-            "Processed claims for in-home damage, damaged merchandise, and equipment charge-backs.",
-            "Completed delivery invoicing, truck inventory, and preliminary contractor billing and payroll."
-        ]
-    },
-    {
-        experienceTitle: "Help Desk Technician", experienceCompany: "NTT Data", experienceLocation: "Lincoln, NE", experienceDuration: "Oct 2016 to Jan 2017", experienceDescription: [
-            "Remote troubleshooting for users with the AAA Auto Club Group client."
-        ]
-    },
-    {
-        experienceTitle: "Auditor", experienceCompany: "Homewood Suites/Hampton Inn & Suites by Hilton", experienceLocation: "Omaha, NE", experienceDuration: "Mar 2016 to Aug 2016", experienceDescription: [
-            "Administrative: reservation and billing, end-of-day reports, cash handling.",
-            "Financial: charge-backs, disputes, account reconcilements, mid-level accounting.",
-            "Guest interaction: resolved guest issues, delivered amenities, completed floor walks, de-escalated property disturbances."
-        ]
-    },
-    {
-        experienceTitle: "CSR II", experienceCompany: "Nebraska Furniture Mart", experienceLocation: "Omaha, NE", experienceDuration: "Oct 2012 to Jan 2015", experienceDescription: [
-            "Managed online subscriptions, accounts, orders, billing, settlements, and returns.",
-            "Processed claims for damaged merchandise, in-home damage, parts requests, warranties, and repairs."
-        ]
-    }
+    // {
+    //     experienceTitle: "Account Executive Assistant & Dispatcher", experienceCompany: "HomeDeliveryLink", experienceLocation: "Lincoln, NE", experienceDuration: "Jan 2017 to Nov 2017", experienceDescription: [
+    //         "Coordinated routes and truck loads for the appliance and electronics store client, Schaefer's.",
+    //         "Processed claims for in-home damage, damaged merchandise, and equipment charge-backs.",
+    //         "Completed delivery invoicing, truck inventory, and preliminary contractor billing and payroll."
+    //     ]
+    // },
+    // {
+    //     experienceTitle: "Help Desk Technician", experienceCompany: "NTT Data", experienceLocation: "Lincoln, NE", experienceDuration: "Oct 2016 to Jan 2017", experienceDescription: [
+    //         "Remote troubleshooting for users with the AAA Auto Club Group client."
+    //     ]
+    // },
+    // {
+    //     experienceTitle: "Auditor", experienceCompany: "Homewood Suites/Hampton Inn & Suites by Hilton", experienceLocation: "Omaha, NE", experienceDuration: "Mar 2016 to Aug 2016", experienceDescription: [
+    //         "Administrative: reservation and billing, end-of-day reports, cash handling.",
+    //         "Financial: charge-backs, disputes, account reconcilements, mid-level accounting.",
+    //         "Guest interaction: resolved guest issues, delivered amenities, completed floor walks, de-escalated property disturbances."
+    //     ]
+    // },
+    // {
+    //     experienceTitle: "CSR II", experienceCompany: "Nebraska Furniture Mart", experienceLocation: "Omaha, NE", experienceDuration: "Oct 2012 to Jan 2015", experienceDescription: [
+    //         "Managed online subscriptions, accounts, orders, billing, settlements, and returns.",
+    //         "Processed claims for damaged merchandise, in-home damage, parts requests, warranties, and repairs."
+    //     ]
+    // }
 ]
 
 export default experiences;
