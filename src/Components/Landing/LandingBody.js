@@ -11,7 +11,7 @@ const LandingBody = () => {
                     </div>
                     <div>
                         <p>I&apos;m a developer living in the heart of the Midwest. My favorite thing to do alone is watch horror in the dark. One day, I <span class="emphasis">will</span> have a corgi.</p>
-                        <p>I&apos;m currently in search of a new role in which I can expand my knowledge of software development and grow my career. What&apos;s my idea of a great work environment? One where there is:</p>
+                        <p>I&apos;m currently in search of a new opportunity! What&apos;s my idea of a great work environment? One where there is:</p>
                         <ul>
                             <li><span class="values">Acceptance</span>; I believe in accepting and respecting all people, regardless of that of which personal identity is composed. I hope that you do, too.</li>
                             <li><span class="values">Communication</span>; a goal cannot be met efficiently with a lack of communication between team members. I give and expect great effort on this.</li>
