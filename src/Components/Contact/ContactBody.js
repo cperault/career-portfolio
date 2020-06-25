@@ -82,7 +82,7 @@ const ContactBody = () => {
             <footer class="social-media-footer">
                 <div>Find me on LinkedIn:</div>
                 <div>
-                    <a href="https://www.linkedin.com/in/christopher-perault-720519152" target="_blank" rel="noopener noreferrer nofollow">
+                    <a href="https://www.linkedin.com/in/cperault" target="_blank" rel="noopener noreferrer nofollow">
                         <img src={LinkedInIcon} class="social-media-icon" alt="LinkedIn profile icon" />
                     </a>
                 </div>

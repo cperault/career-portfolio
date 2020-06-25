@@ -133,6 +133,22 @@ body {
     max-width: 600px !important;
 }
 
+.experience-type-options {
+    display: flex;
+    font-weight: bold;
+    justify-content: space-around;
+}
+
+.experience-currently-loaded {
+    text-decoration: underline;
+}
+
+#experience-type:hover {
+    cursor: pointer;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 .landing-body-container, .projects-body-container, .experience-body-container {
     display: flex;
     padding: 10px;
