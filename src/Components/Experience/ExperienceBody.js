@@ -32,10 +32,10 @@ const ExperienceBody = () => {
         <div className="experience-body-container">
             <div className="experience-type-options">
                 <div id="experience-type">
-                    <p id="experience-work" style={{ textDecoration: "underline" }} onClick={(element) => toggleExperienceData(element)}>Work</p>
+                    <p id="experience-work" style={{ textDecoration: "underline" }} onClick={(element) => toggleExperienceData(element)}>Professional</p>
                 </div>
                 <div id="experience-type">
-                    <p id="experience-education" onClick={(element) => toggleExperienceData(element)}>Education</p>
+                    <p id="experience-education" onClick={(element) => toggleExperienceData(element)}>Educational</p>
                 </div>
             </div>
 
