@@ -85,6 +85,10 @@ body {
 }
 
 .landing-body-container p {
+    text-align: left;
+}
+
+.landing-body-container h2 {
     text-align: center;
 }
 

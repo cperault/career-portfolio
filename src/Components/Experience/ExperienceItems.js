@@ -5,10 +5,7 @@ const jobs = [
         experienceLocation: "Lincoln, NE",
         experienceDuration: "Oct 2019 to Present",
         experienceDescription: [
-            "Maintain internal and public-facing websites",
-            "Document web development processes, APIs, and dependencies",
-            "Manage intranet application access privileges",
-            "Take on backend and frontend project work"
+            "Legacy code maintenance, new functionality implementation, and redesign of websites and software using PHP, JavaScript/jQuery/React, Objective-C, Swift, and Vapor."
         ]
     },
     {
