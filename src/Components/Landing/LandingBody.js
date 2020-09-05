@@ -11,7 +11,7 @@ const LandingBody = () => {
                     </div>
                     <div>
                         <p>The name&apos;s Christopher. I&apos;m a developer currently living in the heart of the Midwest with wings eager to soar. My favorite thing to do is watch horror in the dark&mdash;alone.</p>
-                        <p>While web development is my main speciality, I have been getting more involved with native development-based project work for iOS and macOS using Objective-C, Swift, and a server-side implementation known as Vapor.</p>
+                        <p>While web development is my main specialty, I have been getting more involved with native development-based project work for iOS and macOS using Objective-C, Swift, and a server-side implementation known as Vapor.</p>
                         <h2>Personal Core Values:</h2>
                         <ul>
                             <li><span class="values">Acceptance</span>; we all have different backgrounds, opinions, and beliefs. Despite our differences, we have common ground&mdash;our humanity.</li>
