@@ -3,9 +3,12 @@ const jobs = [
         experienceTitle: "Web Developer",
         experienceCompany: "MacPractice Inc.",
         experienceLocation: "Lincoln, NE",
-        experienceDuration: "Oct 2019 to Present",
+        experienceDuration: "Oct 2019 to Oct 2020",
         experienceDescription: [
-            "Legacy code maintenance, new functionality implementation, and redesign of websites and software using PHP, JavaScript/jQuery/React, Objective-C, Swift, and Vapor."
+            "Wrote a web implementation of the company’s proprietary ticketing and time-tracking software to allow employees to view and log time clock data in a centralized manner, as well as give managers the ability to view/edit records and generate reports. This significantly facilitated time-tracking processes that had been previously hindered due to remote work during COVID-19.",
+            "Developed an intranet utility for admin staff to view client software purchases, release version data, as well as the ability to upload new versions to clients from within the website utility.",
+            "Standardized and documented the official local web development environment process which included writing custom Apache web server configuration files and setting up TLS/SSL certs using Certbot.",
+            "Worked closely with the SysAdmin to ensure best security practices for staging/production servers and maintain continuous Gitlab integration for deployment pipelines."
         ]
     },
     {
