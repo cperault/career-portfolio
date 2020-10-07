@@ -1,6 +1,6 @@
 const jobs = [
     {
-        experienceTitle: "Web Developer",
+        experienceTitle: "Web Software Engineer",
         experienceCompany: "MacPractice Inc.",
         experienceLocation: "Lincoln, NE",
         experienceDuration: "Oct 2019 to Oct 2020",
