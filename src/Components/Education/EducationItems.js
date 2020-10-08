@@ -1,13 +1,5 @@
 const schools = [
     {
-        schoolName: "Western Governors University",
-        schoolLocation: "Online",
-        schoolAchievement: "Bachelor of Science",
-        schoolGPA: "N/A",
-        schoolAttendanceSpan: "Aug 2020 to Present",
-        schoolLearningSummary: "Competency-based software development program integrated with industry-recognized certifications from CompTIA, Oracle, and CIW"
-    },
-    {
         schoolName: "Southeast Community College",
         schoolLocation: "Lincoln, NE",
         schoolAchievement: "Associate of Applied Science",

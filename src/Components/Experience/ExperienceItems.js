@@ -1,7 +1,7 @@
 const jobs = [
     {
         experienceTitle: "Web Software Engineer",
-        experienceCompany: "MacPractice Inc.",
+        experienceCompany: "MacPractice",
         experienceLocation: "Lincoln, NE",
         experienceDuration: "Oct 2019 to Oct 2020",
         experienceDescription: [
@@ -13,7 +13,7 @@ const jobs = [
     },
     {
         experienceTitle: "Software Engineering Intern",
-        experienceCompany: "MacPractice Inc.",
+        experienceCompany: "MacPractice",
         experienceLocation: "Lincoln, NE",
         experienceDuration: "Apr 2019 to Oct 2019",
         experienceDescription: [
