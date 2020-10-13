@@ -1,5 +1,4 @@
 import React from 'react';
-import "./Styling/aesthetic.css";
 import TopNav from "./Components/Navigation/TopNav.js";
 import LandingBody from "./Components/Landing/LandingBody.js";
 import Projects from "./Components/Projects/Projects.js";

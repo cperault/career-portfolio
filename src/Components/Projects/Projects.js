@@ -12,7 +12,7 @@ const Projects = () => {
     <React.Fragment>
       <div className="projects-body-container">
         <h3>What I&apos;m working on:</h3>
-        <ExpansionPanel style={{ backgroundColor: "rgb(80,76,77)" }}>
+        <ExpansionPanel>
           <ExpansionPanelSummary
             expandIcon={<Open style={{ color: "#FFFFFF" }} />}
             style={{
@@ -27,7 +27,7 @@ const Projects = () => {
             <Roofmasters />
           </ExpansionPanelDetails>
         </ExpansionPanel>
-        <ExpansionPanel style={{ backgroundColor: "rgb(80,76,77)" }}>
+        <ExpansionPanel>
           <ExpansionPanelSummary
             expandIcon={<Open style={{ color: "#FFFFFF" }} />}
             style={{
@@ -42,7 +42,7 @@ const Projects = () => {
             <PocketBudget />
           </ExpansionPanelDetails>
         </ExpansionPanel>
-        <ExpansionPanel style={{ backgroundColor: "rgb(80,76,77)" }}>
+        <ExpansionPanel>
           <ExpansionPanelSummary
             expandIcon={<Open style={{ color: "#FFFFFF" }} />}
             style={{

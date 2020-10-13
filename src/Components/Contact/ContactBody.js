@@ -12,27 +12,27 @@ const ContactBody = () => {
   const contactFormStyle = {
     marginBottom: "10px",
     borderRadius: "55px",
-    color: "white",
+    color: "black",
   };
 
   const StyledTextField = makeStyles({
     root: {
-      "& *": { color: "white" },
+      "& *": { color: "black" },
       "& label.Mui-focused": {
-        color: "white",
+        color: "black",
       },
       "& .MuiInput-underline:after": {
-        borderBottomColor: "white",
+        borderBottomColor: "black",
       },
       "& .MuiOutlinedInput-root": {
         "& fieldset": {
-          borderColor: "white",
+          borderColor: "black",
         },
         "&:hover fieldset": {
-          borderColor: "white",
+          borderColor: "black",
         },
         "&.Mui-focused fieldset": {
-          borderColor: "white",
+          borderColor: "black",
         },
       },
     },

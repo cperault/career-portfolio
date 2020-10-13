@@ -16,12 +16,12 @@ const ExperienceBody = () => {
     //toggle currently loaded data accordingly
     switch (experienceDataLoaded.id) {
       case "experience-work":
-        workData.style = "color: white; text-decoration: underline;";
-        educationData.style = "color: white; text-decoration: none";
+        workData.style = "text-decoration: underline;";
+        educationData.style = "text-decoration: none";
         break;
       case "experience-education":
-        workData.style = "color: white; text-decoration: none;";
-        educationData.style = "color: white; text-decoration: underline;";
+        workData.style = "text-decoration: none;";
+        educationData.style = "text-decoration: underline;";
         break;
       default:
     }
@@ -32,7 +32,7 @@ const ExperienceBody = () => {
         <div id="experience-type">
           <p
             id="experience-work"
-            style={{ color: "white", textDecoration: "underline" }}
+            style={{ textDecoration: "underline" }}
             onClick={(element) => toggleExperienceData(element)}
           >
             Professional
@@ -41,7 +41,6 @@ const ExperienceBody = () => {
         <div id="experience-type">
           <p
             id="experience-education"
-            style={{ color: "white" }}
             onClick={(element) => toggleExperienceData(element)}
           >
             Educational
