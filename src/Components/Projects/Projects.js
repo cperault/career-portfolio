@@ -21,7 +21,7 @@ const Projects = () => {
               backgroundColor: "#1B9AAA",
             }}
           >
-            Roofmasters
+            Cody Morris Exteriors
           </ExpansionPanelSummary>
           <ExpansionPanelDetails style={{ backgroundColor: "white" }}>
             <Roofmasters />
