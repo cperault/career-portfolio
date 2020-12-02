@@ -22,24 +22,16 @@ const LandingBody = () => {
               the dark&mdash;alone. Pixel art is a new obsession of mine.
             </p>
             <p>
-              Highly proficient in creating full-stack applications using PHP (5
-              up to 7+), React (16+), CSS, APIs, Material-UI, and MySQL that are
-              both scalable and extensible, but also well-documented and written
-              with security in mind. Beyond the code, I also have experience
-              creating, maintaining, troubleshooting Apache and NGINX web
-              servers as well as utilizing various development environment tools
-              such as Git (Gitlab, GitHub, Git CLI, SourceTree), Docker, cURL,
-              FreeIPA, Netlify, Heroku, dependency managers (Composer, PEAR,
-              npm), and Linux-based servers. My preferred development platform
-              is macOS, but I&apos;m also familiar with Windows-based
-              development using C#, ASP.NET (MVC), and VB.NET.
+              Advanced proficiency in maintaining and creating full-stack applications using PHP (5
+              up to 7+), React (16+), CSS, APIs, Material-UI, and MySQL that are scalable, extensible, and well-documented.
             </p>
-            <p>
-              <span class="notice">
-                I&apos;m looking for my next amazing opportunity, preferably
-                using PHP/JavaScript/React, but I&apos;m always excited to step
-                outside my comfort zone.
-              </span>
+            <p>Beyond the code, I also have experience managing Apache and NGINX web
+            servers and working with various development environment tools
+            such as Git (Gitlab, GitHub, Git CLI, SourceTree), Docker, cURL,
+            FreeIPA, Netlify, Heroku, dependency managers (Composer, PEAR,
+            npm), and Linux-based servers. My preferred development platform
+            is macOS, but I&apos;m also proficient in Windows-based
+            development, particulary using C#, ASP.NET (MVC), and VB.NET.
             </p>
             <h2>Personal Core Values:</h2>
             <ul>

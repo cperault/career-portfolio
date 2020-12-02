@@ -1,14 +1,23 @@
 export const jobs = [
   {
+    experienceTitle: "Software Developer",
+    experienceCompany: "iSoft Data Systems",
+    experienceLocation: "Lincoln, NE",
+    experienceDuration: "Nov 2020 to Present",
+    experienceDescription: [
+      "Maintain and create new features for the existing enterprise software suite on desktop, web, and iOS.",
+    ],
+  },
+  {
     experienceTitle: "Web Software Engineer",
     experienceCompany: "MacPractice",
     experienceLocation: "Lincoln, NE",
     experienceDuration: "Oct 2019 to Oct 2020",
     experienceDescription: [
-      "Wrote a web implementation of the company’s proprietary ticketing and time-tracking software to allow employees to view and log time clock data in a centralized manner, as well as give managers the ability to view/edit records and generate reports. This significantly facilitated time-tracking processes that had been previously hindered due to remote work during COVID-19.",
-      "Developed an intranet utility for admin staff to view client software purchases, release version data, as well as the ability to upload new versions to clients from within the website utility.",
-      "Standardized and documented the official local web development environment process which included writing custom Apache web server configuration files and setting up TLS/SSL certs using Certbot.",
-      "Worked closely with the SysAdmin to ensure best security practices for staging/production servers and maintain continuous Gitlab integration for deployment pipelines.",
+      "Wrote a web implementation of the company’s proprietary ticketing and time tracking software.",
+      "Developed an internal build release utility for admin staff.",
+      "Standardized and documented the company’s official web development processes.",
+      "Worked closely with the system administrator to manage the staging and production servers.",
     ],
   },
   {
@@ -17,7 +26,7 @@ export const jobs = [
     experienceLocation: "Lincoln, NE",
     experienceDuration: "Apr 2019 to Oct 2019",
     experienceDescription: [
-      "Developed a full-stack API documentation website using React.js, JWT authentication, Swagger API, Apache proxying, and server-side Swift for Vapor.",
+      "Developed an API documentation website to facilitate the engineering team’s workflow.",
     ],
   },
   {
