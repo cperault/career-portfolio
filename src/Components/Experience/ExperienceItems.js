@@ -5,7 +5,9 @@ export const jobs = [
     experienceLocation: "Lincoln, NE",
     experienceDuration: "Nov 2020 to Present",
     experienceDescription: [
-      "Maintain and create new features for the existing enterprise software suite on desktop, web, and iOS.",
+      "Responsible for maintaining, updating, and version-releasing our iOS inventory management scanner app in the App Store.",
+      "Full stack web development completing new feature requests and bug fixes for our web product using Ractive.js, Node.js, and MySQL.",
+      "Guide and support for two new developers within the company.",
     ],
   },
   {
@@ -14,10 +16,9 @@ export const jobs = [
     experienceLocation: "Lincoln, NE",
     experienceDuration: "Oct 2019 to Oct 2020",
     experienceDescription: [
-      "Wrote a web implementation of the company’s proprietary ticketing and time tracking software.",
-      "Developed an internal build release utility for admin staff.",
-      "Standardized and documented the company’s official web development processes.",
-      "Worked closely with the system administrator to manage the staging and production servers.",
+      "Wrote a web implementation of the company’s proprietary ticketing and time tracking software using PHP and MySQL.",
+      "Standardized and documented the company’s official web development processes for React.js, PHP, Apache, and setting up the local development environment.",
+      "Worked closely with the system administrator to manage the staging and production servers, as well as respond to CI/CD issues in Gitlab and overall errors logged by NGINX.",
     ],
   },
   {
@@ -26,7 +27,7 @@ export const jobs = [
     experienceLocation: "Lincoln, NE",
     experienceDuration: "Apr 2019 to Oct 2019",
     experienceDescription: [
-      "Developed an API documentation website to facilitate the engineering team’s workflow.",
+      "Co-developed a website that serves as a central dashboard to store, view, and search the company’s internal and external website documentation, as well as the API documentation for our company products, using React.js, PHP, and Swift.",
     ],
   },
   {
@@ -90,4 +91,4 @@ export const jobs = [
   //         "Processed claims for damaged merchandise, in-home damage, parts requests, warranties, and repairs."
   //     ]
   // }
-];
+]

@@ -1,19 +1,19 @@
-import React, { useState } from "react";
-import { TextField, Button } from "@material-ui/core";
-import LinkedInIcon from "../../Media/LinkedInIcon.svg";
-import { makeStyles } from "@material-ui/core/styles";
+import React, { useState } from "react"
+import { TextField, Button } from "@material-ui/core"
+import LinkedInIcon from "../../Media/LinkedInIcon.svg"
+import { makeStyles } from "@material-ui/core/styles"
 
 const ContactBody = () => {
   //hook to manage state of the form data
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [message, setMessage] = useState("")
 
   const contactFormStyle = {
     marginBottom: "10px",
     borderRadius: "55px",
     color: "black",
-  };
+  }
 
   const StyledTextField = makeStyles({
     root: {
@@ -36,22 +36,22 @@ const ContactBody = () => {
         },
       },
     },
-  });
+  })
 
-  const classes = StyledTextField();
+  const classes = StyledTextField()
   //encode the Netlify Form request data
-  const encode = (data) => {
+  const encode = data => {
     return Object.keys(data)
       .map(
-        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+        key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`,
       )
-      .join("&");
-  };
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const formData = { name, email, message };
+      .join("&")
+  }
+  const handleSubmit = e => {
+    e.preventDefault()
+    const formData = { name, email, message }
     if (name.trim() === "" || email.trim() === "" || message.trim() === "") {
-      alert("How do you expect to contact me with missing form data?");
+      alert("How do you expect to contact me with missing form data?")
     } else {
       fetch("/", {
         method: "POST",
@@ -60,17 +60,17 @@ const ContactBody = () => {
       })
         .then(() => {
           alert(
-            "Your message was sent! Once reviewed, I'll reach out as soon as I can."
-          );
-          window.location.reload();
+            "Your message was sent! Once reviewed, I'll reach out as soon as I can.",
+          )
+          window.location.reload()
         })
-        .catch((error) => alert(error));
+        .catch(error => alert(error))
     }
-  };
+  }
   return (
     <div className="contact-body-container">
       <h1>Want to Connect?</h1>
-      <form name="contact" netlify onSubmit={handleSubmit}>
+      <form name="contact" netlify="true" onSubmit={handleSubmit}>
         <TextField
           className={classes.root}
           fullWidth
@@ -78,7 +78,7 @@ const ContactBody = () => {
           variant="outlined"
           style={contactFormStyle}
           name="name"
-          onChange={(text) => setName(text.target.value)}
+          onChange={text => setName(text.target.value)}
         />
         <TextField
           className={classes.root}
@@ -87,7 +87,7 @@ const ContactBody = () => {
           variant="outlined"
           style={contactFormStyle}
           name="email"
-          onChange={(text) => setEmail(text.target.value)}
+          onChange={text => setEmail(text.target.value)}
         />
         <TextField
           className={classes.root}
@@ -98,7 +98,7 @@ const ContactBody = () => {
           style={contactFormStyle}
           label="What would you like to say?"
           name="message"
-          onChange={(text) => setMessage(text.target.value)}
+          onChange={text => setMessage(text.target.value)}
         />
         <Button
           type="submit"
@@ -111,10 +111,10 @@ const ContactBody = () => {
           size="small"
         >
           Send
-        </Button>
+				</Button>
       </form>
-      <span class="contact-form-separator">or</span>
-      <footer class="social-media-footer">
+      <span className="contact-form-separator">or</span>
+      <footer className="social-media-footer">
         <div>Find me on LinkedIn:</div>
         <div>
           <a
@@ -124,14 +124,14 @@ const ContactBody = () => {
           >
             <img
               src={LinkedInIcon}
-              class="social-media-icon"
+              className="social-media-icon"
               alt="LinkedIn profile icon"
             />
           </a>
         </div>
       </footer>
     </div>
-  );
-};
+  )
+}
 
-export default ContactBody;
+export default ContactBody
